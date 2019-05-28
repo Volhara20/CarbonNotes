@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=tcp:carbonnotesdbserver.database.windows.net;Initial Catalog=CarbonNotes_db;Persist Security Info=True;User ID=olka;Password=4048424dima." tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dima\\source\\repos\\CarbonNotes\\CarbonCloud\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
